@@ -10,4 +10,4 @@ RUN pecl install xdebug && echo "zend_extension=/usr/local/lib/php/extensions/no
 
 RUN curl --silent --show-error https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 
-RUN npm install --global gulp-cli bower
+RUN npm install --global gulp-cli bower yarn
